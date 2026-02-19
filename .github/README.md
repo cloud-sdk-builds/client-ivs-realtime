@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ivs-realtime`](https://www.npmjs.com/package/@aws-sdk/client-ivs-realtime/v/3.632.0).
+[`@aws-sdk/client-ivs-realtime`](https://www.npmjs.com/package/@aws-sdk/client-ivs-realtime/v/3.635.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.632.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.635.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-TAcmSuvjY30fG1XzWM9GYBJpzgK5Aew1Z9PegTTWxPWTmZim0mhFrsl5+6B0KhcI
+sha384-M9HHtUnob+BQXUMMaZIPx+8NEZDY7EqvkuW/zwyIk9isv5Ar/r2HfR0HYjABFefN
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ivs-realtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.632.0/index.min.mjs"
+            "@aws-sdk/client-ivs-realtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.635.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.632.0/index.min.mjs": "sha384-TAcmSuvjY30fG1XzWM9GYBJpzgK5Aew1Z9PegTTWxPWTmZim0mhFrsl5+6B0KhcI"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.635.0/index.min.mjs": "sha384-M9HHtUnob+BQXUMMaZIPx+8NEZDY7EqvkuW/zwyIk9isv5Ar/r2HfR0HYjABFefN"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ivs-realtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.632.0/index.min.mjs"
+                        "@aws-sdk/client-ivs-realtime": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.635.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.632.0/index.min.mjs": "sha384-TAcmSuvjY30fG1XzWM9GYBJpzgK5Aew1Z9PegTTWxPWTmZim0mhFrsl5+6B0KhcI"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs-realtime@3.635.0/index.min.mjs": "sha384-M9HHtUnob+BQXUMMaZIPx+8NEZDY7EqvkuW/zwyIk9isv5Ar/r2HfR0HYjABFefN"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.632.0`)
+* Always pin to a specific version (`@3.635.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ivs-realtime/blob/refs/tags/3.632.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ivs-realtime/blob/refs/tags/3.635.0/LICENSE
 ```
 
 ---
